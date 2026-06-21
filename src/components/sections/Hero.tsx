@@ -148,17 +148,17 @@ export default function Hero() {
 
         {/* Right side Profile Image */}
         <motion.div
-          className="lg:col-span-5 flex justify-center items-center relative"
-          initial={{ opacity: 0, scale: 0.95, y: 15 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          className="lg:col-span-5 flex justify-center items-center relative -translate-y-8 lg:-translate-y-14"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
         >
           {/* Extremely soft background glow */}
-          <div className="absolute w-56 h-56 bg-gradient-to-tr from-cyan-500/5 to-purple-500/5 rounded-full blur-[70px] pointer-events-none" />
+          <div className="absolute w-72 h-72 bg-gradient-to-tr from-cyan-500/5 to-purple-500/5 rounded-full blur-[75px] pointer-events-none" />
 
           {/* Premium Floating Ring Frame */}
           <motion.div
-            className="relative p-[2px] rounded-full bg-gradient-to-tr from-cyan-500/30 via-purple-500/20 to-emerald-500/30 shadow-[0_15px_35px_rgba(0,0,0,0.4)]"
+            className="relative p-[3px] rounded-full bg-gradient-to-tr from-cyan-400/60 via-purple-500/40 to-emerald-400/60 shadow-[0_15px_35px_rgba(0,0,0,0.4)]"
             animate={{ y: [0, -6, 0] }}
             transition={{
               duration: 6,
@@ -169,15 +169,15 @@ export default function Hero() {
           >
             {/* Inner background container */}
             <div className="bg-zinc-950 p-[3px] rounded-full overflow-hidden">
-              <div className="relative w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 rounded-full overflow-hidden">
+              <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden">
                 <Image
                   src="/profile.jpg"
                   alt="Gulshan Kumar"
-                  width={240}
-                  height={240}
+                  width={384}
+                  height={384}
                   priority
                   className="rounded-full object-cover object-center w-full h-full scale-[1.01] transition-transform duration-500"
-                  sizes="(max-width: 640px) 192px, (max-width: 768px) 208px, 224px"
+                  sizes="(max-width: 640px) 288px, (max-width: 1024px) 320px, 384px"
                   quality={95}
                 />
               </div>

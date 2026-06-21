@@ -92,7 +92,7 @@ export default function Navbar() {
           {/* Desktop CTA & Socials */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/gulshanverse"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-zinc-400 hover:text-white transition-colors hover:scale-110"
@@ -101,7 +101,7 @@ export default function Navbar() {
               <GithubIcon size={18} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/gulshanverse"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 text-zinc-400 hover:text-white transition-colors hover:scale-110"
@@ -175,7 +175,7 @@ export default function Navbar() {
             >
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/gulshanverse"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors"
@@ -183,7 +183,7 @@ export default function Navbar() {
                   <GithubIcon size={20} />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/gulshanverse"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 bg-zinc-900 rounded-full text-zinc-400 hover:text-white transition-colors"

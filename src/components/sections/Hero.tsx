@@ -146,41 +146,40 @@ export default function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Right side Profile Image Card */}
+        {/* Right side Profile Image */}
         <motion.div
           className="lg:col-span-5 flex justify-center items-center relative"
           initial={{ opacity: 0, scale: 0.95, y: 15 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={{ duration: 0.6, type: "spring", stiffness: 100, damping: 20 }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
         >
-          {/* Subtle glow effect */}
-          <div className="absolute w-72 h-72 bg-gradient-to-tr from-cyan-500/10 to-purple-500/10 rounded-full blur-[90px] opacity-30 pointer-events-none" />
+          {/* Extremely soft background glow */}
+          <div className="absolute w-56 h-56 bg-gradient-to-tr from-cyan-500/5 to-purple-500/5 rounded-full blur-[70px] pointer-events-none" />
 
-          {/* Premium Card Frame */}
-          <motion.div 
-            className="relative group p-[1px] rounded-2xl bg-gradient-to-tr from-zinc-800 via-zinc-800 to-zinc-700 hover:from-cyan-500/50 hover:to-purple-500/50 shadow-[0_20px_50px_rgba(0,0,0,0.5)] transition-all duration-700 w-full max-w-[320px] aspect-square"
-            whileHover={{ y: -4 }}
+          {/* Premium Floating Ring Frame */}
+          <motion.div
+            className="relative p-[2px] rounded-full bg-gradient-to-tr from-cyan-500/30 via-purple-500/20 to-emerald-500/30 shadow-[0_15px_35px_rgba(0,0,0,0.4)]"
+            animate={{ y: [0, -6, 0] }}
+            transition={{
+              duration: 6,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
+            whileHover={{ scale: 1.02 }}
           >
-            {/* Inner frame */}
-            <div className="bg-zinc-950 p-3 rounded-[15px] overflow-hidden w-full h-full relative">
-              <Image
-                src="/profile.jpg"
-                alt="Gulshan Kumar"
-                width={320}
-                height={320}
-                priority
-                className="rounded-xl object-cover object-center w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 scale-[1.01]"
-                sizes="(max-width: 640px) 256px, 300px"
-                quality={95}
-              />
-              
-              {/* Subtle glass overlay corner tag */}
-              <div className="absolute bottom-6 left-6 right-6 px-4 py-2.5 bg-zinc-950/75 backdrop-blur-md border border-zinc-800/80 rounded-xl flex items-center justify-between text-[11px] font-bold text-zinc-400">
-                <span>GULSHAN KUMAR</span>
-                <span className="text-cyan-400 flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
-                  ACTIVE NOW
-                </span>
+            {/* Inner background container */}
+            <div className="bg-zinc-950 p-[3px] rounded-full overflow-hidden">
+              <div className="relative w-48 h-48 sm:w-52 sm:h-52 md:w-56 md:h-56 rounded-full overflow-hidden">
+                <Image
+                  src="/profile.jpg"
+                  alt="Gulshan Kumar"
+                  width={240}
+                  height={240}
+                  priority
+                  className="rounded-full object-cover object-center w-full h-full scale-[1.01] transition-transform duration-500"
+                  sizes="(max-width: 640px) 192px, (max-width: 768px) 208px, 224px"
+                  quality={95}
+                />
               </div>
             </div>
           </motion.div>

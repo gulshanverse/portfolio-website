@@ -1,36 +1,201 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="./portfolio.png" alt="Portfolio Preview" width="100%"/>
 
-First, run the development server:
+# Gulshan Kumar
+
+### AI/ML Engineer • Software Engineer • Full Stack Developer
+
+Building intelligent systems, scalable software, and production-ready applications.
+
+<p>
+
+<a href="https://gulshanverse.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Live_Portfolio-00C8FF?style=for-the-badge&logo=vercel&logoColor=white"/>
+</a>
+
+<a href="https://github.com/gulshanverse">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://linkedin.com/in/gulshanverse">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</p>
+
+</div>
+
+---
+
+# About
+
+This repository contains the complete source code for my personal portfolio website.
+
+The portfolio represents my journey as a software engineer and AI/ML developer, showcasing projects, technical expertise, achievements, certifications, and practical experience through a modern, interactive interface.
+
+Designed with performance, responsiveness, accessibility, and clean architecture in mind, the website serves as both my digital portfolio and a demonstration of my development approach.
+
+---
+
+# Features
+
+- Modern premium UI
+- Fully responsive layout
+- Interactive animations using Framer Motion
+- AI/ML focused branding
+- Project showcase
+- Technical skills section
+- Experience timeline
+- Certifications
+- Achievements
+- Contact form
+- Optimized Next.js architecture
+- SEO friendly
+- Fast loading performance
+
+---
+
+# Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Framework | Next.js 15 |
+| Language | TypeScript |
+| UI | React 19 |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Icons | Lucide React |
+| Deployment | Vercel |
+
+---
+
+# Folder Structure
+
+```text
+portfolio-website
+│
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/
+│   │
+│   ├── sections/
+│   │     ├── Hero
+│   │     ├── About
+│   │     ├── Skills
+│   │     ├── Experience
+│   │     ├── Projects
+│   │     ├── Achievements
+│   │     ├── Certifications
+│   │     └── Contact
+│   │
+│   └── ...
+│
+├── package.json
+└── README.md
+```
+
+---
+
+# Local Development
+
+Clone the repository
+
+```bash
+git clone https://github.com/gulshanverse/portfolio-website.git
+```
+
+Move inside the project
+
+```bash
+cd portfolio-website
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Current Sections
 
-To learn more about Next.js, take a look at the following resources:
+- Hero
+- About
+- Skills
+- Experience
+- Projects
+- Achievements
+- Certifications
+- Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Upcoming Enhancements
 
-## Deploy on Vercel
+This portfolio is actively evolving.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Planned additions include:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- AI Portfolio Assistant
+- Interactive 3D Hero Section
+- Dynamic GitHub Statistics
+- Blog & Technical Articles
+- Case Study Pages
+- Dark / Light Theme
+- Resume Analytics
+- Better Project Demonstrations
+- Advanced Motion Effects
+- Performance Improvements
+
+---
+
+# Performance Goals
+
+- Responsive on all devices
+- Clean UI/UX
+- Lighthouse optimized
+- Production ready
+- Maintainable architecture
+- Scalable component design
+
+---
+
+# Live Website
+
+### 🌐 https://gulshanverse.vercel.app
+
+---
+
+# Connect
+
+- Portfolio → https://gulshanverse.vercel.app
+- GitHub → https://github.com/gulshanverse
+- LinkedIn → https://linkedin.com/in/YOUR-LINKEDIN
+- Email → YOUR_EMAIL
+
+---
+
+<div align="center">
+
+### Thanks for visiting!
+
+If you like this project, consider giving it a ⭐
+
+Built with ❤️ by **Gulshan Kumar**
+
+</div>

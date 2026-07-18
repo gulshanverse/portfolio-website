@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./portfolio.png" alt="Portfolio Preview" width="100%"/>
+<img src="public/portfolio.png" alt="Portfolio Preview" width="100%"/>
 
 # Gulshan Kumar
 

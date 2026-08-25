@@ -186,7 +186,7 @@ Planned additions include:
 - Portfolio → https://gulshanverse.vercel.app
 - GitHub → https://github.com/gulshanverse
 - LinkedIn → https://linkedin.com/in/YOUR-LINKEDIN
-- Email → YOUR_EMAIL
+- Email → gulshankumaritggv@gmail.com
 
 ---
 

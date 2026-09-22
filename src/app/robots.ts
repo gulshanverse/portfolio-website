@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://gulshankumar.dev/sitemap.xml",
+    sitemap: "https://gulshanverse.tech/sitemap.xml",
   };
 }

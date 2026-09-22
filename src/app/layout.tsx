@@ -17,6 +17,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gulshanverse.tech"),
   title: "Gulshan Kumar | AI/ML Engineer & Developer Portfolio",
   description: "Explore the futuristic portfolio of Gulshan Kumar, an AI/ML developer specializing in deep learning, neural models, and high-performance system design.",
   keywords: [
@@ -32,11 +33,15 @@ export const metadata: Metadata = {
     "React Three Fiber"
   ],
   authors: [{ name: "Gulshan Kumar" }],
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     title: "Gulshan Kumar | AI/ML Engineer Portfolio",
     description: "Futuristic portfolio of Gulshan Kumar showcasing state-of-the-art AI/ML and software engineering projects.",
     type: "website",
     locale: "en_US",
+    url: "https://gulshanverse.tech",
   },
   twitter: {
     card: "summary_large_image",
@@ -60,7 +65,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Gulshan Kumar",
-    url: "https://gulshankumar.dev",
+    url: "https://gulshanverse.tech",
     jobTitle: "AI/ML Engineer & Software Developer",
     description:
       "AI/ML developer specializing in deep learning, neural models, and high-performance system design.",
